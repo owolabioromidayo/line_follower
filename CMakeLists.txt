@@ -8,7 +8,6 @@ project(linefollower)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  cv_basics
   cv_bridge
   rospy
   sensor_msgs
@@ -106,7 +105,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES linefollower
-#  CATKIN_DEPENDS cv_basics cv_bridge rospy sensor_msgs
+#  CATKIN_DEPENDS  cv_bridge rospy sensor_msgs
 #  DEPENDS system_lib
 )
 
